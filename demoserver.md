@@ -1,8 +1,8 @@
-# OMGSERVERS demoserver Instruction
+# OMGSERVERS Demo Server Instructions
 
-Welcome! You have received your developer account credentials for the demo server.
+You have received developer account credentials for the demo server.
 
-Now you can interact with the demo server using different roles:
+You can interact with the demo server in different roles:
 
 - **Developer**
 - **Player**
