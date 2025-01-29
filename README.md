@@ -1,2 +1,3 @@
-# omgdocumentations
+# OMGDOCUMENTATIONS
+
 OMGSERVERS documentation
