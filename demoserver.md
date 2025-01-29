@@ -58,7 +58,7 @@ To connect your game, you need the following parameters:
 - Integrate the [OMGPLAYER SDK](https://github.com/OMGSERVERS/omgdefold) into your game client.
 - Configure it using the connection parameters listed above.
 
-Once configured, you can connect and test your multiplayer game on OMGSERVERS.
+Once configured, you can run and test your multiplayer game on OMGSERVERS.
 
 
 
