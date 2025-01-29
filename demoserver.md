@@ -20,7 +20,7 @@ Now you can interact with the demo server using different roles:
 
 - **Developer API Access:**  
   Utilize the **OMGSERVERS CTL** tool to interact with the developer
-  API. [See detailed instructions here](https://github.com/OMGSERVERS/omginstructions/blob/main/omgserversctl_instruction.md).
+  API. [See detailed instructions here](https://github.com/OMGSERVERS/omginstructions/blob/main/omgserversctl.md).
 
 - **Docker Image Management:**  
   To log in to the demoserver registry to push your game runtime Docker images:
