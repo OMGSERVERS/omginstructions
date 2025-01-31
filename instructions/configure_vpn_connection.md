@@ -4,4 +4,4 @@ To access the OMGSERVERS installation as a developer, you need to set up a VPN c
 client:
 
 1. Download the WireGuard client for your platform: [WireGuard Install](https://www.wireguard.com/install/)
-2. Install the client and connect using your personal VPN configuration.
+2. Install the client and connect using your personal VPN configuration that you should have after registration.

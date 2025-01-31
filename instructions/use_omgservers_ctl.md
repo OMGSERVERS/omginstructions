@@ -1,12 +1,12 @@
-# How to Use OMGSERVERS CTL
+# How to Use OMGSERVERS ctl
 
-The OMGSERVERS CTL tool is shipped as a Docker image. You can pull it using:
+The `OMGSERVERS ctl` tool is shipped as a Docker image. You can pull it using:
 
 ```sh
 docker pull omgservers/ctl:1.0.0-SNAPSHOT
 ```
 
-The tool stores credentials, tokens, and various configuration parameters in the `/opt/omgserversctl/.omgserversctl`
+The tool stores credentials, tokens, and logs in the `/opt/omgserversctl/.omgserversctl`
 directory.
 
 To persist data across executions, you need to mount a volume:
@@ -38,9 +38,16 @@ docker run --rm -it \
 Once you are ready to run the tool, let's configure it to use your developer account on the demo server:
 
 ```sh
-./omgserversctl environment useDemoServer
-./omgserversctl developer useCredentials ${DEVELOPER_USER} ${DEVELOPER_PASSWORD}
+./omgserversctl.sh environment useDemoServer
+./omgserversctl.sh developer useCredentials ${DEVELOPER_USER} ${DEVELOPER_PASSWORD}
 
 # Test the configuration
-./omgserversctl developer getTenantDetails ${TENANT_ID}
+./omgserversctl.sh developer getTenantDetails ${TENANT_ID}
+```
+
+Run `./omgserversctl.sh` to see all available commands for working with OMGSERVERS.
+
+```sh
+./omgserversctl.sh help
+
 ```
