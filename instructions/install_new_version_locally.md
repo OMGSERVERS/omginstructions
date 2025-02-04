@@ -1,9 +1,9 @@
-# How to Test a New Version Locally
+# How to Install a New Version Locally
 
-Once the Docker image is built, you can deploy it locally to test it using the following command:
+Once the Docker image is built, you can install it locally to test it using the following command:
 
 ```sh
-./omglocaltestingctl.sh test
+./omglocaltestingctl.sh install
 ```
 
 ## What Happens Under the Hood
