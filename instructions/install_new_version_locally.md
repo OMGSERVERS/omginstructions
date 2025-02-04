@@ -3,7 +3,7 @@
 Once the Docker image is built, you can install it locally to test it using the following command:
 
 ```sh
-./omglocaltestingctl.sh install
+./omglocalctl.sh install
 ```
 
 ## What Happens Under the Hood

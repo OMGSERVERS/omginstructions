@@ -1,12 +1,12 @@
 # How to Use Local Environment
 
-The script `./omglocaltestingctl.sh` allows you to:
+The script `./omglocalctl.sh` allows you to:
 
 - Start and stop the local environment
 - Initialize a tenant and developer account
 - Build and deploy a new Docker image to test it
 
-Run `./omglocaltestingctl.sh help` to see all available options.
+Run `./omglocalctl.sh help` to see all available options.
 
 ## How It Works
 
